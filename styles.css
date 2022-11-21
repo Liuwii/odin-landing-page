@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -52,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 100px 200px;
+    padding: 50px 200px;
 }
 
 .info-headline {
@@ -73,7 +72,28 @@ body {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    justify-items: center;
+    padding: 100px 300px;
+}
+
+.quote-item {
+    color: #1f2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+#quote-source {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    text-align: right;
 }
 
 button {

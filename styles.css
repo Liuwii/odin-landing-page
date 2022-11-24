@@ -7,10 +7,14 @@ body {
     justify-content: space-between;
   }
 
+  /* Header and Hero rules */
+
+
 .header,
 .hero-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 300px;
     background-color: #1f2937;
     color: #f9faf8;
@@ -47,9 +51,24 @@ body {
     padding: 20px 0;
 }
 
+button {
+    background-color: #3882f6;
+    padding: 5px 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+ /* Main part rules */
+
 .content1 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 50px 200px;
 }
@@ -64,12 +83,15 @@ body {
     gap: 50px;
     padding-top: 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .content-img,
 .item {
     width: 150px;
 }
+
+/* Quote rules */
 
 .quote {
     display: flex;
@@ -96,17 +118,25 @@ body {
     text-align: right;
 }
 
-button {
+/* Call to action rules */
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
-    padding: 5px 30px;
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 4px;
+    margin: 100px;
+    padding: 50px;
 }
+
+.cta button {
+    border: 1px solid white;
+    margin: 30px 1px;
+}
+
+
+/* General rules */
+
 
 ul {
     display: flex;
@@ -118,4 +148,17 @@ ul {
 a {
     text-decoration: none;
     color: #f9faf8;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: normal;
+    margin: 0;
 }
